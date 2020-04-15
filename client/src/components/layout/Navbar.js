@@ -50,10 +50,13 @@ const MainNavbar = ({ title, icon }) => {
     <div>
       <Navbar color="dark" dark expand="md">
         <NavbarBrand href="/"><i className="fa fa-address-book " aria-hidden="true"></i> {title}</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
         <Nav className="mr-auto"></Nav>
         <Nav navbar>
           {isAuthenticated ? authLinks : guestLinks}
         </Nav>
+        </Collapse>
       </Navbar>
     </div>
   );
