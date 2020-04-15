@@ -57,7 +57,7 @@ export const ContactForm = () => {
             </FormGroup>
             <FormGroup>
                 <Label for="exampleEmail">Phone</Label>
-                <Input type="number" name="phone" placeholder="phone" value={phone} onChange={onChange} />
+                <Input type="number" name="phone" placeholder="Phone" value={phone} onChange={onChange} />
             </FormGroup>
             <FormGroup>
                 <Label for="exampleEmail">Contact Type</Label>
