@@ -23,6 +23,9 @@
 .pointer{
   cursor: pointer;
 }
+.spinner_margin {
+  margin-top:25%;
+}
 .card_shadow{
   background-color:  whitesmoke;
   box-shadow: 0 0 11px rgba(33,33,33,.2);
